@@ -1,0 +1,313 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+header, .Logo, main, .Web-Site-Status, body, .Aside-Container, html, .Div-Button, .Button-One, .Button-Two, .Message-Display, .Section-Button, #Exclamation-ICO, .Input-Content, .Copy-Button, .Header-Div-Button, .Align-Content, footer, .Align-ICO {
+    display: flex;
+}
+html, body {
+    height: 100vh;
+    width: 100vw;
+}
+
+h1, h2, p {
+    font-family: var(--Font-Family);
+}
+
+:root {
+    --Body-Color: #E5E5E5;
+    --Content-Color: #0A3871;
+    --Button-One: #104e99;
+    --Button-Two: #D8DFE8;
+    --Copy-Button-Hover: #15539e;
+    --Alerts-Color: #495057;
+    --Font-Family: "Inter", sans-serif;
+
+}
+
+header { /* Elemento PAI */
+    height: 5.5rem;
+    gap: 2.5%;
+}
+
+.Header-Div-Button {
+    align-items: center;
+    justify-content: space-between;
+    width: 10rem;
+    margin-left: 2%;
+}
+
+.Header-Div-Button :hover {
+    border-bottom: 5px solid var(--Content-Color);
+}
+
+body { /* Elemento PAI */
+    background-color: var(--Body-Color);
+    background-attachment: fixed;
+    flex-direction: column;
+    overflow: hidden;
+}
+
+.Logo {
+    padding: 0% 0% 0% 1%;
+    justify-content: center;
+    align-items: center;
+}
+
+.Align-Content {
+    justify-content: space-between;
+    flex-wrap: wrap;
+    height: calc(50% + 200px);
+    width: 98.5%;
+    margin: 1% 0% 0% 0%;
+}
+.Main-Container { /* Elemento PAI */
+    flex-direction: column;
+    padding: 5% 0% 0% 15%;
+    height: auto;
+    width: 50%;
+    gap: 5%;
+}
+
+.Input-Content {
+    width: 100%; /*A largura desse item vai ter a 100% da largura do Content Pai (Main-Container)*/
+    background-color: var(--Alerts-Color);
+    border-radius: 5px;
+    max-height: 200px;
+    overflow: hidden;
+    color: white;
+    resize: none; 
+}
+
+.Section-Button {
+    flex-direction: column;
+    margin-top: 35.5%;
+    gap: 5px 0px;
+}
+
+#Exclamation-ICO {
+    flex-direction: row;
+    gap: 0px 5px;
+}
+
+.Div-Button {
+    justify-content: space-between;
+    align-items: center;
+    /*width: 100%; A largura desse item vai ter a 100% da largura do Content Pai (Main-Container)*/ 
+    height: 4.5rem;
+    width: 450.5px;
+}
+
+.Div-Button :hover {
+    height: 3.5rem;
+}
+
+.Aside-Container {
+    border-radius: 32px;
+    box-shadow: 0.2rem 0.5rem 0.5rem grey;
+    background-color: white;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    height: 95%;
+    width: 25%;
+    margin: 0% 2.5% 1% 0%;
+}
+
+.Web-Site-Status {
+    flex-direction: column;
+    align-items: center;
+    width: 85.5%;
+    height: 50%;
+}
+
+.Alert-Image {
+    width: 80%;
+}
+
+.Message-Display {
+    padding-top: 5%;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    height: auto;
+    gap: 16px 0px;
+    overflow-y: scroll;
+    overflow: auto;   
+}
+
+.Copy-Button-Height {
+    height: 4.5rem;
+}
+
+.Copy-Button-Height :hover {
+    box-shadow: -1px 5px 5px var(--Copy-Button-Hover);
+}
+
+.Align-ICO {
+    justify-content: center;
+    align-items: center;
+}
+
+.Button-One, .Button-Two {
+    border: 2px solid var(--Content-Color);
+    justify-content: center;
+    border-radius: 24px;
+    align-items: center;
+    height: 3rem;
+    /*width: 15rem;*/
+    width: 220px;
+
+    border-bottom: solid var(--Content-Color) 5px;
+}
+
+.Button-One {
+    background-color: var(--Button-One);
+    color: white;
+}
+
+.Button-Two {
+    background-color: var(--Button-Two);
+    color: black;
+}
+
+.Copy-Button {
+    margin-bottom: 5%;
+    display: none;
+}
+
+h1 {
+    color:var(--Content-Color);
+    font-size: 2rem;
+    font-weight: 400;
+    
+}
+
+h2 {
+    font-size: 1.5rem;
+}
+
+p {
+   
+    font-size: 1rem;
+    color: #495057;
+}
+a {
+    color: var(--Button-One);
+}
+
+footer {
+    padding-left: 15%;
+    position: relative;
+    bottom: 0;
+}
+
+@media only screen and (max-width: 1250px) {
+    html, body {
+        height: auto;
+        overflow: visible;
+    }
+
+    header {
+        height: 10%;
+        gap: 0px;
+    }
+
+    .Logo {
+        padding-top: 1%;
+        height: 100%;
+        width: 25%;
+    }
+
+    .Header-Div-Button {
+        margin-left: 0;
+    }
+
+    .Alura-ICO {
+        width: 125px;
+    }
+
+    h1 {
+        padding-bottom: 2.5%;
+    }
+
+    .Align-Content {
+        flex-direction: column;
+        align-items: center;
+        flex-wrap: nowrap;
+        height: 100%;
+        width: 100%;
+        margin: 0;
+    }
+
+    .Main-Container {
+        padding: 1.5% 1% 1.5% 1%;
+        align-items: center;
+        height: auto;
+        width: 95.5%;
+        margin-bottom: 5%;
+    }
+
+    .Input-Content {
+        min-height: 200px;
+        width: 95.5%;
+    }
+
+    .Section-Button {
+        margin-top: 5%;
+        width: 95.5%;
+    }
+
+    .Div-Button {
+        width: 450.5px;
+    }
+
+    .Button-One, .Button-Two {
+        width: 220px;
+    }
+
+    .Aside-Container {
+        width: 75%;
+        margin: 1% 0% 1% 0%;
+        height: auto;
+    }
+
+    .Alert-Image {
+        width: 50%
+    }
+
+    footer {
+        align-items: center;
+        padding: 5% 0% 0% 5%;
+        height: 5%;
+    }
+
+}
+
+@media only screen and (max-height: 1235px) {
+
+    .Web-Site-Status {
+        justify-content: center;
+        height: 100%;
+    }
+
+}
+
+@media only screen and (max-width: 500px) {
+
+    .Div-Button {
+        width: 100%;
+    }
+
+}
+
+@media only screen and (max-width: 600px) {
+    .Alert-Image {
+        width: 60%
+    }
+}

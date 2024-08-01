@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="./Assets/JavaScript/IA.js" defer> </script>
+    <link rel="shortcut icon" href="./Assets/Images/ICO/Alura.ico">
+    <link id="WhiteMode" rel="stylesheet" href="./Assets/CSS/Style(01).css">
+    <link id="DarkMode" rel="stylesheet" href="./Assets/CSS/Style(02).css" disabled="true">
+    <title> Alura - Challenge </title>
+</head>
+<body>
+    <header>
+        <div class="Logo">
+            <img src="./Assets/Images/Logo-Alura.png" class="Alura-ICO">
+        </div>
+        <div class="Header-Div-Button">
+            <a onclick="WhiteMode()" href="#"> Original </a>
+            <a onclick="DarkMode()" href="#"> Modificado </a>
+        </div>
+    </header>
+    <div class="Align-Content">
+    <main class="Main-Container">
+        <h1> Digite seu Texto </h1>
+        <textarea id="Input-Box" class="Input-Content" rows="10" cols="30"> </textarea>
+        <div class="Section-Button">
+            <div id="Exclamation-ICO">
+                <div class="Align-ICO">
+                    <img src="./Assets/Images/Exclamation.png" alt="Exclamation-Icon"> 
+                </div>
+                <p> Apenas letras minúsculas e sem acento. </p>
+            </div> 
+            <div class="Div-Button">
+                <button onclick="Criptografar()" id="Input-Button" class="Button-One"> Criptografar </button>
+                <button onclick="Descriptografar()" id="Output-Button" class="Button-Two"> Descriptografar </button>
+            </div>
+        </div>
+    </main>
+    <aside class="Aside-Container">
+        <div class="Web-Site-Status">
+            <img src="./Assets/Images/NoMessage.png" class="Alert-Image">
+            <div class="Message-Display">
+                <h2> Nenhuma mensagem econtrada </h2>
+                <p id="Criptografed-Menssage"> Digite um texto que você deseja criptografar ou descriptografar </p>
+                <output></output>
+            </div>
+        </div>
+        <div class="Copy-Button-Height">
+            <button onclick="CopyMessage()" id="Copy-Button" class="Copy-Button Button-Two"> Copiar </button>
+        </div>
+    </aside>
+    </div>
+    <footer>
+        <p> &copy; 2024 Copyright Made by Daniel Lucas </p>
+    </footer>
+</body>
+</html>
