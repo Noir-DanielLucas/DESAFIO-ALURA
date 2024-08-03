@@ -12,8 +12,7 @@
 > [**NOTE**]: As recomendações logo estaram disponíveis
 
 ## :file_folder: Do que se trata esse Projeto
-Esse Projeto é um desafio final feito para os concursantes do Curso Iniciante em Programação T7 - ONE que têm como Colaboradores a **Unimed, Oracle e Alura** com o objetivo
-de induzir os estudantes a botarem em prática o que aprenderam nos cursos realizados e autodesafiar-se a aprender coisas novas, como já deve percebido é "Decodificador" de texto.
+Este projeto representa o desafio final para os participantes do Curso Iniciante em Programação T7 - ONE, contando com a colaboração da **Unimed, Oracle e Alura**. Seu objetivo é incentivar os estudantes a aplicarem na prática os conhecimentos adquiridos durante os cursos e a se desafiarem a aprender novas habilidades. Como o próprio nome sugere, trata-se de um **Decodificador** de texto.
 
 ## ☕ Como usar o Projeto
 
@@ -32,8 +31,7 @@ de induzir os estudantes a botarem em prática o que aprenderam nos cursos reali
 > > Como nome sugere o botão Copiar serve para copiar o texto desejado
 
 ### :fire: Desafios enfrentados ao realizar o Projeto
-<p> [Primeiro Desafio que <strong> ENFRENTEI </strong>]: Foi o Figma sendo que o Site Figma infelizmente é pesado em certos dispositivos sendo o meu um deles mas não impossibilita de acessar os dado nele contido pórem continua complicado,
-esse foi um dos motivos para não usar ele já que estva levando meio minuto para conseguir visualizar um elemento. </p>
+<p> [Primeiro Desafio que <strong> ENFRENTEI </strong>]: O Figma é uma ferramenta amplamente utilizada para design colaborativo, permitindo criar interfaces de usuário, protótipos e designs de sites. No entanto, em alguns dispositivos, o Figma pode apresentar problemas de desempenho. Sendo um dos motivos para não usá-lo e além do tempo que levava para visualizar cada elemento. </p>
 
 <p> [Segundo Desafio]: Foi só encontrar uma forma de amarzenar vários valores em váriavel além do Array e conseguir navegar livremente entre os valores: </p>
 
@@ -52,7 +50,7 @@ esse foi um dos motivos para não usar ele já que estva levando meio minuto par
                 .map((char) => Encrypting[char] || char) 
                 .join(''); 
         } 
-<p> [Terçeiro Desafio]: Se eu tive problema na hora de Criptografar é claro que tive na hora de desfazer mas a única coisa que mudou foi parte de desfazer, fora isso também mudei a ordem das palavras na váriavel Encrypting: </p>
+<p> [Terçeiro Desafio]: Se eu tive problemas na hora de criptografar, é claro que também tive na hora de desfazer. A única coisa que mudou foi a parte de desfazer; além disso, também alterei a ordem das palavras na variável Encrypting: </p>
 
     function DescriptarMessage(outputMessage) {
             let result = '';
@@ -79,7 +77,7 @@ esse foi um dos motivos para não usar ele já que estva levando meio minuto par
             return result;
         }
 
-> [**NOTE**]: Não ire explicar o códigos apresentados então atente-se as recomendações que estão disponível futuramente!
+> [**NOTE**]: Não irei explicar o códigos apresentados, então atente-se as recomendações que estaram disponível futuramente!
 
 ## :computer: As Próximas Atualizações:
 
